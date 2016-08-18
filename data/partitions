@@ -1,0 +1,32 @@
+---
+partitions:
+- /ratlbld/mule
+- /ratlbld/mule2
+- /ratlbld/bayta
+- /ratlbld/clmbld1
+- /ratlbld/clmbld2
+- /ratlbld/clmbld3
+- /ratlbld/ebling
+- /ratlbld/ebling2
+- /ratlbld/empire
+- /ratlbld/empire2
+- /ratlbld/foundation
+- /ratlbld/magnifico
+- /ratlbld/mallow
+- /ratlbld/mule
+- /ratlbld/mule2
+- /ratlbld/mule3
+- /ratlbld/mule4
+- /ratlbld/mule5
+- /ratlbld/rdmbld
+- /ratlbld/rdmbld2
+- /ratlbld/rqmbld
+- /ratlbld/rtcbld
+- /ratlbld/seldon
+- /ratlbld/seldon2
+- /ratlbld/seldon3
+- /ratlbld/terminus
+- /ratlbld/trantor
+- /ratlbld/dmbuild
+- /ratlbld/relmbld
+- /ratlbld/rhapsodybld
