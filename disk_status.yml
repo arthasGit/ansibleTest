@@ -1,0 +1,12 @@
+---
+- name: Disck space status
+  hosts: localhost
+  vars_files:
+  - /usr/ansible/ansibleTest/partitions
+
+  tasks:
+  - include: /usr/ansible/ansibleTest/du.yml
+    with_items: "{{ partitions }}"
+
+    loop_control:
+      loop_var: partition

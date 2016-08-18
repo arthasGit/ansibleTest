@@ -1,0 +1,4 @@
+---
+- shell: df {{ partition }} | tail -1 | sed -s "s,%.*,," | sed -s "s,.* ,,"
+  register: percentage
+- debug: msg="{{ partition }} space used  {{ percentage.stdout }}%"
